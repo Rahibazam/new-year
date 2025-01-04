@@ -27,6 +27,16 @@ p{
     border-style: none;
 }
 
+.secondary-btn{
+    color: white;
+    background-color: #005FAC;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 13px 25px;
+    border-radius: 5px;
+    border-style: none;
+}
+
 /* top section styles */
 
 .top-section{
@@ -66,22 +76,26 @@ p{
 .middle-section{
     display: flex;
     align-items: center;
-    justify-content: center;
-    margin: 50px 0px;
-    width:auto;
-    border: black solid 1px;
+    justify-content: space-evenly;
+    margin: 100px;
+    padding: 50px 100px;
+    width: auto;
+    gap: 20px;
+
 }
 
 .middle-section > img{
     width: 569px;
     height: 723px;
-    margin-right: 87px;
+    margin-right: 50px;
+    margin-left: 80px;
 }
 
 .middle-section-content{
     width: 416px;
     height: 400px;
     margin-top: 100px;
+    margin-right: 120px;
 }
 
 .bullet-point{
@@ -145,4 +159,61 @@ p{
     color: white;
     font-weight: bold;
     margin-bottom: 24px;
+}
+
+/* footer related styles */
+
+footer{
+    display: flex;
+    background-color: #151414;
+    height: 577px;
+    padding: 130px 200px;
+    gap: 50px;
+    justify-content: space-between;
+
+
+}
+
+.footer-column{
+    width: 40%;
+    width: 485px;
+    margin: 0px 0px 0px 180px;
+
+}
+
+.footer-tile{
+    color: #F8F8F8;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.footer-description{
+    color: white;
+}
+
+.footer-contact-info{
+    color: white;
+    margin: 10px 0px;
+}
+
+.social-links img{
+    padding: 10px 10px 0px 0px;
+}
+
+.footer-form-heading{
+    font-size: 25px;
+    font-weight: normal;
+    color: white;
+    margin-bottom: 31px;
+
+}
+
+.contact input[type="email"]{
+    display: block;
+    padding: 15px 100px 15px 20px;
+    background-color: #151414;
+    border: #F3F3F3 solid 1px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    color: #F3F3F3;
 }
